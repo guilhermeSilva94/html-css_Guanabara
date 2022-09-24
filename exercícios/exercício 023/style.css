@@ -1,0 +1,24 @@
+div {
+    background-color: lightgray;
+    border: 1px solid black;
+    display: inline-block;
+    height: 200px;
+    text-align: center;
+    width: 200px;
+}
+
+div:hover {
+    background-color: yellow;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    background-color: lightcoral;
+    color: whitesmoke;
+    display: block;
+    
+
+}

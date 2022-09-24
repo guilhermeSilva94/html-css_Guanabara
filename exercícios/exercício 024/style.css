@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+a::before {
+    color: darkgray;
+    content: '⇐ ';
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a::after {
+    color: darkgray;
+    content: ' ⇒';
+    font-weight: normal;
+    text-decoration: none;
+
+}
