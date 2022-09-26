@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    background-image: url(../exercício\ 027/imagens/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+    /* Shortband - background
+    color > image  > position > repeat > {size}* > attachment
+
+    background: black url(../exercício\ 027/imagens/wallpaper002.jpg) center center no-repeat cover fixed;
+
+    */
+
+}
+
+main {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px;
+    max-width: 400px;
+}
+
