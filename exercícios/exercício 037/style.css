@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.destaque {
+    background-color: rgba(165, 42, 42, 0.39);
+}
+
+.cnome {
+    background-color: lightgreen;
+}
+
+.cgrupo {
+    background-color: lightblue;
+}
