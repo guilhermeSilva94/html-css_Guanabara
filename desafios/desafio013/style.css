@@ -3,14 +3,23 @@ body {
 }
 
 table {
-    width: 400px;
+    width: 600px;
     border-collapse: collapse;
+    text-align: center;
 }
 
-td {
-    border: 2px solid black;
-    text-align: center;
-    font-size: 2em;
-    font-weight: bolder;
+.destaque {
+    background-color: darkgray;
+    color: whitesmoke;
+}
+
+td,
+th {
+    border: 1px solid black;
+    font-size: 1.5em;
+}
+
+.alinhamentoDiferente {
+    text-align: left;
 }
 
